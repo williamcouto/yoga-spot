@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item > li{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    gap: 20px;
+}
+
+h1{
+    padding: 10px;
+}
