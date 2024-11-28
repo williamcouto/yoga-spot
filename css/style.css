@@ -26,6 +26,12 @@ nav ul{
     gap: 20px;
 }
 
+.nav-items li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
 .logo-yoga img{
     width: 70px;
 }
