@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: content-box;
 }
 
 .menu-item > li{
@@ -12,6 +13,10 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    box-sizing: content-box;
+    background-color: #ce84ad;
+    height: 80px;
+    padding: 5px;
 }
 
 nav ul{
@@ -21,6 +26,6 @@ nav ul{
     gap: 20px;
 }
 
-h1{
-    padding: 10px;
+.logo-yoga img{
+    width: 70px;
 }
