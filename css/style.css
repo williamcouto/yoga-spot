@@ -17,6 +17,17 @@ header{
     background-color: #ce84ad;
     height: 80px;
     padding: 5px;
+    grid-area: cabeçalho;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'cabeçalho cabeçalho' 
+    'sect-initial-yoga sect-initial-yoga';
+    
 }
 
 nav ul{
@@ -34,4 +45,15 @@ nav ul{
 
 .logo-yoga img{
     width: 70px;
+    padding: 10px;
+}
+
+.img-sect-start > img{
+    display: flex;
+    width: 300px;
+}
+
+.sect-initial-yoga{
+    background-color: #F8E9D2;
+    grid-area: sect-initial-yoga;
 }
