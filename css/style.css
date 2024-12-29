@@ -7,19 +7,17 @@
 .menu-item > li{
     list-style: none;
 }
-
 header{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     box-sizing: content-box;
-    background-color: #ce84ad;
+    background-color: #31452D;
     height: 80px;
     padding: 5px;
     grid-area: cabeçalho;
 }
-
 body{
     display: grid;
     grid-template-columns: 1fr;
@@ -27,33 +25,51 @@ body{
     grid-template-areas: 
     'cabeçalho cabeçalho' 
     'sect-initial-yoga sect-initial-yoga';
-    
 }
-
 nav ul{
     display: flex;
     padding: 10px;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
+    font-family: 'Lucida Sans', sans-serif;
 }
-
 .nav-items li > a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 15px;
 }
-
+.nav-items li:hover{
+    background-color: #ea9e8d;
+    padding: 2px;
+}
 .logo-yoga img{
-    width: 70px;
-    padding: 10px;
+    width: 60px;
+    padding: 8px;
+    border-radius: 40%;
+    background-color: #ea9e8d;
 }
-
 .img-sect-start > img{
-    display: flex;
-    width: 300px;
+    width: 450px;
+    border-radius: 10px;
 }
-
+.img-sect-start{
+    display: flex;
+    align-items: start;
+    margin-left: 4%;
+    margin-top: 2%;
+}
 .sect-initial-yoga{
-    background-color: #F8E9D2;
+    display: flex;
+    flex-direction: column;
+    background-color: #31452D;
     grid-area: sect-initial-yoga;
+    height: 100vh;
+}
+.sect-initial-yoga h1{
+    color: #000000;
+    font-family: 'Lucida Sans', sans-serif;
+    margin: 20px;
+    padding: 5px;
+    font-size: 30pt;
+    background-color: #ea9e8d;
 }
