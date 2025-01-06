@@ -42,10 +42,11 @@ nav ul{
     width: 60px;
     padding: 5px;
     border-radius: 20%;
+    margin-left: 45%;
     background-color: #ea9e8d;
 }
 .img-sect-start > img{
-    width: 450px;
+    width: 460px;
     border-radius: 5px;
 }
 .img-sect-start{
@@ -61,19 +62,21 @@ nav ul{
     grid-area: sect-initial-yoga;
     height: 100vh;
 }
-.sect-initial-yoga h1{
-    color: #000000;
-    font-family: 'Lucida Sans', sans-serif;
-    margin: 20px;
+
+.img-sect-start article{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
     padding: 5px;
-    font-size: 30pt;
-    background-color: #ea9e8d;
+    font-family: 'Lucida Sans', sans-serif;
+    color: #fff;
+    width: 55%;
 }
-.sect-initial-yoga p{
-    color: #ffffff;
-    font-family: 'Lucida Sans', sans-serif;
-    margin: 20px;
+.img-sect-start h1{
+    font-size: 20pt;
+    margin: 10px;
     padding: 5px;
+    color: #fff;
 }
 .sect-infos-yoga img{
     width: 55vw;
