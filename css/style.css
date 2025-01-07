@@ -92,5 +92,11 @@ nav ul{
     font-family: 'Lucida Sans',sans-serif;
     font-size: 13pt;
     padding: 13px;
-    margin-top: 4%;
+    margin-top: 2%;
+}
+.box-yoga{
+    padding: 10px;
+}
+.box-yoga img{
+    width: 100px;
 }
