@@ -20,8 +20,7 @@ header{
 }
 body{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
     'cabeçalho cabeçalho' 
     'sect-initial-yoga sect-initial-yoga';
@@ -79,13 +78,13 @@ nav ul{
     color: #fff;
 }
 .sect-infos-yoga img{
-    width: 55vw;
+    width: 57vw;
     height: 100%;
 }
 .sect-infos-yoga{
     display: flex;
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    height: 95vh;
     background-color:#fff;
 }
 .sect-infos-yoga article{
@@ -100,4 +99,7 @@ nav ul{
 .box-yoga img{
     width: 90px;
     padding: 5px;
+}
+.features-box{
+    background-color: beige;
 }
