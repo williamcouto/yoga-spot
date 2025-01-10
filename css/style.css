@@ -25,7 +25,6 @@ body{
     grid-template-areas: 
     'cabeçalho cabeçalho' 
     'sect-initial-yoga sect-initial-yoga';
-    overflow-x: hidden;
 }
 nav ul{
     display: flex;
@@ -48,9 +47,8 @@ nav ul{
 }
 .img-sect-start > img{
     width: 450px;
-    height: 500px;
+    height: 550px;
     border-radius: 5px;
-    clip-path: inset(0 0 0 round 5% 20% 0 20%);
 }
 .img-sect-start{
     display: flex;
@@ -104,7 +102,13 @@ nav ul{
     padding: 5px;
 }
 .features-box{
+    display: flex;
+    align-items: center;
     background-color: beige;
     width: 100vw;
     height: 50vh;
+}
+.icons-feature{
+    width: 100px;
+    height: 97px;
 }
