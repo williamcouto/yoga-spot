@@ -14,14 +14,13 @@ header{
     justify-content: space-between;
     box-sizing: content-box;
     background-color: #31452D;
-    height: 70px;
-    padding: 9px;
-    padding-right: 2%;
+    padding: 14px;
+    height: 72px;
     grid-area: cabeçalho;
 }
 body{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-template-areas: 
     'cabeçalho cabeçalho' 
     'sect-initial-yoga sect-initial-yoga';
@@ -33,6 +32,7 @@ nav ul{
     gap: 30px;
     font-family: 'Lucida Sans', sans-serif;
 }
+
 .nav-items li > a {
     text-decoration: none;
     color: #fff;
@@ -42,49 +42,41 @@ nav ul{
     width: 70px;
     padding: 5px;
     border-radius: 20%;
-    margin-left: 45%;
+    margin-left: 8%;
     background-color: #ea9e8d;
-}
-.img-sect-start > img{
-    width: 450px;
-    height: 550px;
-    border-radius: 5px;
 }
 .img-sect-start{
     display: flex;
     align-items: start;
-    margin-left: 3%;
-    margin-top: 3%;
+    flex-direction: row-reverse;
 }
 .sect-initial-yoga{
     display: flex;
     flex-direction: column;
     background-color: #31452D;
     grid-area: sect-initial-yoga;
-    height: 100vh;
 }
 .img-sect-start article{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 40px;
+    margin-top: 8%;
     padding: 5px;
     font-family: 'Lucida Sans', sans-serif;
     color: #fff;
-    width: 50%;
 }
 .img-sect-start h1{
-    font-size: 20pt;
-    margin: 10px;
-    padding: 5px;
+    font-size: 34pt;
+    margin-bottom: 5%;
     color: #fff;
 }
-.sect-infos-yoga img{
-    width: 57vw;
-    height: 100%;
+.img-sect-start img{
+    width: 560px;
+    height: 560px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 .sect-infos-yoga{
     display: flex;
-    width: 90vw;
     height: 95vh;
     background-color:#fff;
 }
@@ -93,6 +85,14 @@ nav ul{
     font-size: 13pt;
     padding: 13px;
     margin-top: 2%;
+}
+.btn-book{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+    background-color: greenyellow;
+    width: 200px;
+    height: 35px;
+    margin-top: 5%;
 }
 .box-yoga{
     padding: 10px;
@@ -105,10 +105,12 @@ nav ul{
     display: flex;
     align-items: center;
     background-color: beige;
-    width: 100vw;
-    height: 50vh;
+}
+.features-box div{
+    background-color: rgb(245, 245, 200);
 }
 .icons-feature{
     width: 100px;
     height: 97px;
+    margin: auto;
 }
