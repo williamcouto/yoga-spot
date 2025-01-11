@@ -43,7 +43,7 @@ nav ul{
     padding: 5px;
     border-radius: 20%;
     margin-left: 8%;
-    background-color: #ea9e8d;
+    background-color: #EE7674;
 }
 .img-sect-start{
     display: flex;
@@ -63,7 +63,21 @@ nav ul{
     margin-top: 8%;
     padding: 5px;
     font-family: 'Lucida Sans', sans-serif;
+    color: #CED0CE;
+}
+.btn-book{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #824C71;
     color: #fff;
+    border: none;
+    border-radius: 7px;
+    width: 175px;
+    height: 42px;
+    margin-top: 5%;
+    padding: 5px;
+    cursor: pointer;
 }
 .img-sect-start h1{
     font-size: 34pt;
@@ -85,14 +99,6 @@ nav ul{
     font-size: 13pt;
     padding: 13px;
     margin-top: 2%;
-}
-.btn-book{
-    font-family: 'Lucida Sans', sans-serif;
-    font-size: 16px;
-    background-color: greenyellow;
-    width: 200px;
-    height: 35px;
-    margin-top: 5%;
 }
 .box-yoga{
     padding: 10px;
