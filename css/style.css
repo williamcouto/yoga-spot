@@ -13,7 +13,7 @@ header{
     align-items: center;
     justify-content: space-between;
     box-sizing: content-box;
-    background-color: #31452D;
+    background-color: #2A4024;
     padding: 14px;
     height: 72px;
     grid-area: cabeçalho;
@@ -43,7 +43,7 @@ nav ul{
     padding: 5px;
     border-radius: 20%;
     margin-left: 8%;
-    background-color: #EE7674;
+    background-color: #FCB9B2;
 }
 .img-sect-start{
     display: flex;
@@ -53,7 +53,7 @@ nav ul{
 .sect-initial-yoga{
     display: flex;
     flex-direction: column;
-    background-color: #31452D;
+    background-color: #2A4024;
     grid-area: sect-initial-yoga;
 }
 .img-sect-start article{
@@ -69,8 +69,8 @@ nav ul{
     font-family: 'Lucida Sans', sans-serif;
     font-size: 16px;
     font-weight: bold;
-    background-color: #824C71;
-    color: #fff;
+    background-color: #FCB9B2;
+    color: #000000ec;
     border: none;
     border-radius: 7px;
     width: 175px;
@@ -91,14 +91,17 @@ nav ul{
 }
 .sect-infos-yoga{
     display: flex;
-    height: 95vh;
+    height: 20vh;
     background-color:#fff;
 }
 .sect-infos-yoga article{
     font-family: 'Lucida Sans',sans-serif;
     font-size: 13pt;
-    padding: 13px;
+    padding: 20px;
     margin-top: 2%;
+}
+.sect-infos-yoga p{
+    margin-bottom: 20px;
 }
 .sect-infos-yoga img {
     width: 710px;
@@ -106,10 +109,12 @@ nav ul{
 }
 .box-yoga{
     padding: 10px;
-}
-.box-yoga img{
-    width: 90px;
-    padding: 5px;
+    background-color: #fff9d7;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 51%;
+    width: 450px;
 }
 .features-box{
     display: flex;
