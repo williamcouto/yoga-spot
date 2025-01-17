@@ -13,7 +13,7 @@ header{
     align-items: center;
     justify-content: space-between;
     box-sizing: content-box;
-    background-color: #2A4024;
+    background-color: #304634;
     padding: 14px;
     height: 72px;
     grid-area: cabeçalho;
@@ -41,9 +41,9 @@ nav ul{
 .logo-yoga img{
     width: 70px;
     padding: 5px;
-    border-radius: 20%;
-    margin-left: 8%;
-    background-color: #FCB9B2;
+    border-radius: 15%;
+    margin-left: 10%;
+    background-color: #FFD1BA;
 }
 .img-sect-start{
     display: flex;
@@ -53,7 +53,7 @@ nav ul{
 .sect-initial-yoga{
     display: flex;
     flex-direction: column;
-    background-color: #2A4024;
+    background-color: #304634;
     grid-area: sect-initial-yoga;
 }
 .img-sect-start article{
@@ -69,7 +69,7 @@ nav ul{
     font-family: 'Lucida Sans', sans-serif;
     font-size: 16px;
     font-weight: bold;
-    background-color: #FCB9B2;
+    background-color: #FFD1BA;
     color: #000000ec;
     border: none;
     border-radius: 7px;
@@ -91,7 +91,7 @@ nav ul{
 }
 .sect-infos-yoga{
     display: flex;
-    background-color:#eee9e9;
+    background-color:#fff;
 }
 .sect-infos-yoga article{
     font-family: 'Lucida Sans',sans-serif;
@@ -108,7 +108,7 @@ nav ul{
 }
 .box-yoga{
     padding: 10px;
-    background-color: #fff;
+    background-color: #CEE0DC;
     border-radius: 4px;
     padding: 18px;
     width: 510px;
