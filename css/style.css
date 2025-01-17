@@ -91,8 +91,7 @@ nav ul{
 }
 .sect-infos-yoga{
     display: flex;
-    height: 20vh;
-    background-color:#fff;
+    background-color:#eee9e9;
 }
 .sect-infos-yoga article{
     font-family: 'Lucida Sans',sans-serif;
@@ -109,23 +108,19 @@ nav ul{
 }
 .box-yoga{
     padding: 10px;
-    background-color: #fff9d7;
-    border-radius: 10px;
-    padding: 20px;
-    position: absolute;
-    left: 51%;
-    width: 450px;
-}
-.features-box{
-    display: flex;
-    align-items: center;
-    background-color: beige;
-}
-.features-box div{
-    background-color: rgb(245, 245, 200);
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 18px;
+    width: 510px;
 }
 .icons-feature{
-    width: 100px;
-    height: 97px;
-    margin: auto;
+    width: 98px;
+    height: 100px;
+}
+.box-features-yoga{
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    height: 350px;
+    background-color: rgb(255, 217, 217);
 }
