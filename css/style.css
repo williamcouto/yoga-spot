@@ -23,11 +23,10 @@ header{
     grid-area: cabeçalho;
 }
 html{
-    font-family: 'Lucida Sans',sans-serif;
+    font-family: Arial ,sans-serif;
 }
 body{
     display: grid;
-    grid-template-rows: auto 1fr auto;
     grid-template-areas: 
     'cabeçalho' 
     'sect-initial-yoga'
@@ -121,32 +120,33 @@ nav ul{
     margin-bottom: 20px;
 }
 #sect-infos-yoga img {
-    width: 55vw;
+    width: 56vw;
     height: 100%;
 }
-.box-yoga{
-    border-radius: 4px;
-    padding: 18px;
-    width: 510px;
-}
 .features-items img{
-    width: 98px;
+    width: 100px;
     height: 100px;
+    padding: 10px;
+}
+.features-items img:hover{
     background-color: var(--color-icons);
-    padding: 3%;
-    border-radius: 5px;
 }
 #features-yoga{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 20px;
-    height: 60vh;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    height: 100vh;
 }
 .features-items{
     display: grid;
-    text-align: left;
-    justify-items: baseline;
-    width: 300px;
+    justify-items: center;
+    align-items: center;
+}
+.features-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 .features-items p{
     width: 60%;
@@ -171,7 +171,7 @@ nav ul{
     gap: 20px;
 }
 .card-style{
-    background-color: #cb9aff;
+    background-color: #ffffff;
     width: 300px;
     height: 500px;
     aspect-ratio: 1;
@@ -180,9 +180,11 @@ nav ul{
 }
 .card-style img{
     width: 100%;
-    height: 250px;
+    height: 270px;
+    margin-bottom: 10px;
 }
 .card-style p{
     margin: 0;
+    font-size: 0.9rem;
     margin-top: 13px;
 }
