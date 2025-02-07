@@ -69,41 +69,40 @@ nav ul{
 #sect-initial-yoga{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     grid-area: sect-initial-yoga;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 .img-sect-start article{
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    margin: 30px;
     margin-top: 8%;
     padding: 5px;
-    font-family: 'Lucida Sans', sans-serif;
-    color: #000000;
+    color: #3a3a3afa;
 }
 .btn-book{
-    font-family: 'Lucida Sans', sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
-    background-color: #D3C4E3;
-    color: #000000ec;
+    background-color: #7b1edf;
+    color: #ffffff;
     border: none;
     border-radius: 7px;
     width: 175px;
     height: 45px;
-    margin-top: 8%;
+    margin-top: 5%;
     padding: 5px;
     cursor: pointer;
 }
 .img-sect-start h1{
-    font-size: 34pt;
+    font-size: 36pt;
     margin-bottom: 5%;
+    color: #000;
 }
 .img-sect-start img{
-    width: 60%;
-    height: 550px;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
+    width: 850px;
+    height: 500px;
+    aspect-ratio: 1.3;
 }
 #sect-infos-yoga{
     display: grid;
@@ -117,7 +116,7 @@ nav ul{
     font-family: 'Lucida Sans',sans-serif;
     font-size: 13pt;
     padding: 11px;
-    margin-top: 3%;
+    margin-top: 7%;
     grid-column: span 1;
 }
 #sect-infos-yoga p{
