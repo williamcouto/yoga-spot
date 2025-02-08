@@ -22,13 +22,7 @@
         background-image: url(/assets/pexels-woman-yoga.jpg);
         background-size: cover;
         background-position: center left;
-
-    }
-    #img-sect-start{
-        display: flex;
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
+        background-attachment: fixed;
     }
     #sect-initial-yoga img, #sect-infos-yoga img{
         display: none;
@@ -36,8 +30,8 @@
     #sect-initial-yoga article{
         background-color: #fff;
         padding: 30px;
-        width: 92vw;
-        
+        width: 93vw;
+        border-radius: 3px;        
     }
     .btn-book{
         width: 150px;
@@ -68,7 +62,11 @@
         top: 14%;
     }
     .stats-card p{
-        margin-top: 6px;
+        margin-top: 5px;
+        color: #616161e8;
+    }
+    .stats-card h4{
+        color: #096400;
     }
     .stats-card:nth-child(1){
         position: relative;
@@ -76,7 +74,7 @@
     }
     .stats-card:nth-child(2){
         position: relative;
-        left: 8%;
+        left: 4%;
     }
     .stats-card:nth-child(3){
         position: relative;
@@ -84,7 +82,7 @@
     }
     .stats-card:nth-child(4){
         position: relative;
-        left: 8%;
+        left: 4%;
     }
 
 }
