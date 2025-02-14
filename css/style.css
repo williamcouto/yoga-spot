@@ -216,9 +216,3 @@ li::marker{
 #classes-header h1{
     margin-bottom: 8px;
 }
-hr{
-    width: 90px;
-    height: 2px;
-    border: none;
-    background-color: rgb(255, 169, 56);
-}
