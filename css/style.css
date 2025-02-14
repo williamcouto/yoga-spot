@@ -161,6 +161,9 @@ nav ul{
     padding: 3px;
     aspect-ratio: 1.1;
 }
+.card-style:hover{
+    transform: scale(101%);
+}
 .card-style{
     width: 315px;
     height: 550px;
@@ -170,8 +173,7 @@ nav ul{
 .card-style  h3{
     padding: 6px;
     line-height: 1.2em;
-    margin-top: 5px;
-    text-align: justify;
+    margin-top: 12px;
 }
 
 .card-style ul{
@@ -185,21 +187,17 @@ nav ul{
 li::marker{
     color: rgb(226, 151, 12);
 }
-
 #classes-header{
     z-index: 1;
-    padding: 22px;
-    margin-bottom: 50px;
+    padding: 25px;
+    margin-bottom: 13px;
     margin-top: 20px;
-    font-size: 15pt;
     text-align: left;
 }
 #classes-header h1{
+    font-size: 31pt;
     margin-bottom: 8px;
 }
-hr{
-    width: 90px;
-    height: 2px;
-    border: none;
-    background-color: rgb(255, 169, 56);
+#classes-header p {
+    color: #575757;
 }
