@@ -176,12 +176,6 @@ nav ul{
 .card-style:hover{
     transform: scale(101%);
 }
-.card-style{
-    width: 310px;
-    min-height: 550px;
-    background-color: var(--color-box);
-    padding: 6px;
-}
 .card-style h3{
     padding: 6px;
     margin-top: 10px;
