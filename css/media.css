@@ -1,53 +1,143 @@
-@media only screen and (max-width: 768px) {
-
-    .sect-yoga{
-        width: 100%;
-        height: 100vh;
+@media screen and (max-width: 768px){
+    :root {
+        --color-background-initial: #F8F5E9;
+        --color-section-stats: #9DC08B;
+        --color-icons: #DF6D14;
+        --color-box: #F0E8DF;
     }
-    body{
-        overflow-x: hidden;
+    .sect-yoga{
+        width: 100svw;
+        height: 100svh;
+    }
+    section{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     header{
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content:center;
         padding: 20px;
         height: 100px;
         width: 100vw;
     }
-
-    #sect-initial-yoga{
-        background-image: url(/assets/pexels-woman-yoga.jpg);
-        background-size: cover;
-        background-position: center left;
-    }
-    #sect-initial-yoga img, #sect-infos-yoga img{
+    nav ul{
         display: none;
     }
-    #sect-initial-yoga article{
-        background-color: #fff;
+    #sect-initial-yoga{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    .img-sect-start article{
         padding: 30px;
-        width: 80vw;
-        border-radius: 3px;        
+        background-color: var(--color-box);
+        width: 88svw;
+        height: 70svh;
+        border-radius: 3px;     
+    }
+    article p{
+        margin-top: 14%;
+    }
+    .img-sect-start img{
+        display: none;
     }
     .btn-book{
-        width: 150px;
+        width: 170px;
         height: 50px;
-        margin-top: 24px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    #sect-infos-yoga img{
+        display: none;
     }
 
-    #sect-infos-yoga{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .text-infos > p{
+        display: none;
+    }
+   
+    .stats-yoga-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80svw;
     }
     .stats-card{
-        background-color: #f5f5f5;
+        background-color: #fff;
         width: 200px;
-        height: 155px;
-        padding: 20px;
-        border-radius: 10px;
+        height: 145px;
+        padding: 16px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+        border: 1px solid #0000004f;
+    }
+    .stats-card p{
+        color: #3d3d3d;
+        font-size: 17px;
+    }
+    .num-stats{
+        font-size: 35pt;
+    }
+
+    .classes-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content:center;
+        gap: 30px;
+    }
+    .card-style{
+        background-color: #ffffff;
+        width: 300px;
+        height: 400px;
+        aspect-ratio: 1;
+        padding: 10px;
+    }
+    .card-style img{
+        width: 100%;
+        max-height: 320px;
+        aspect-ratio: 1;
+    }
+    .card-style{
+        width: 310px;
+        min-height: 600px;
+        background-color: var(--color-box);;
+    }
+    .card-style h3{
+        padding: 6px;
+        margin-top: 12px;
+        font-size: 1.5rem;
+        text-align: center;
+        border-color: #DF6D14;
+    }
+
+    .card-style ul{
+        padding: 16px;
+        line-height: 1.6em;
+    }
+    .card-style li{
+        font-size: 1.2rem;
+        color: #3d3d3d;
+    }
+    li::marker{
+        color: var(--color-icons);
+    }
+    #classes-header{
+        margin-bottom: 13px;
+    }
+    #classes-header h1{
+        font-size: 31pt;
+        margin-bottom: 8px;
+        margin-top: 20px;
+    }
+    #classes-header p {
+        color: #3a3a3a;
+    }
+    #classes-sect{
+       height: 200px;
     }
 
 }

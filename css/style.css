@@ -6,7 +6,7 @@
 
 :root {
     --color-background-initial: #F8F5E9;
-    --color-section-stats: #306838;
+    --color-section-stats: #9DC08B;
     --color-icons: #DF6D14;
     --color-box: #F0E8DF;
 }
@@ -122,7 +122,7 @@ nav ul{
     grid-column: span 1;
 }
 .text-infos > p{
-    color: #ffffff;
+    color: #000;
 }
 #sect-infos-yoga p{
     margin-bottom: 20px;
@@ -146,7 +146,7 @@ nav ul{
     right: 30%;
     top: 20%;
     margin-bottom: 20px;
-    border: 1px solid #9DC08B;
+    border: 1px solid #0000004f;
 }
 .stats-card p{
     margin-top: 6px;
@@ -179,15 +179,15 @@ nav ul{
 .card-style{
     width: 310px;
     min-height: 550px;
-    background-color: #f5f5f5;
+    background-color: var(--color-box);
     padding: 6px;
 }
 .card-style h3{
     padding: 6px;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 .card-style ul{
-    padding: 15px;
+    padding: 20px;
     line-height: 1.4em;
 }
 .card-style li{
@@ -211,5 +211,5 @@ li::marker{
     color: #575757;
 }
 #classes-sect{
-    background-color: var(--color-box);
+   height: 200px;
 }
