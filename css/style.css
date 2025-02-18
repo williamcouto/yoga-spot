@@ -164,9 +164,10 @@ nav ul{
 .card-style{
     background-color: #ffffff;
     width: 300px;
-    height: 500px;
+    height: 540px;
     aspect-ratio: 1;
     padding: 10px;
+    border: 1px solid #0000004f;
 }
 .card-style img{
     width: 100%;
@@ -178,11 +179,14 @@ nav ul{
 }
 .card-style h3{
     padding: 6px;
-    margin-top: 10px;
+    margin-top: 6px;
+    padding-left: 17px;
+    border-left: 4px solid var(--color-icons);
+    border-width: 5px;
 }
 .card-style ul{
     padding: 20px;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 .card-style li{
     font-size: 14px;
