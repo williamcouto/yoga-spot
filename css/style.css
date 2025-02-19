@@ -195,19 +195,19 @@ nav ul{
 li::marker{
     color: var(--color-icons);
 }
-#classes-header{
-    padding: 20px;
-    margin-bottom: 13px;
-    text-align: left;
-}
-#classes-header h1{
+#classes-sect h1{
     font-size: 31pt;
     margin-bottom: 8px;
     margin-top: 20px;
 }
-#classes-header p {
+#classes-sect p {
     color: #575757;
 }
-#classes-sect{
-   height: 200px;
+#classes-sect h1, p {
+    text-align: center;
+}
+
+#sect-benefits{
+    display: flex;
+    flex-direction: column;
 }
