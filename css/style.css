@@ -206,8 +206,30 @@ li::marker{
 #classes-sect h1, p {
     text-align: center;
 }
-
-#sect-benefits{
+#sect-about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: var(--color-background-initial);
+}
+.banner-container > img{
+    width: 410px;
+}
+.text-about{
     display: flex;
     flex-direction: column;
+    align-items: baseline;
+    padding: 5px;
+}
+.text-about p{
+    width: 80%;
+    line-height: 1.3em;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.text-about h2{
+    margin-bottom: 5%;
+    font-size: 27pt;
 }
