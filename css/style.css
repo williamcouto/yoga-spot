@@ -23,7 +23,7 @@ header{
     padding: 20px;
     height: 85px;
     grid-area: cabeçalho;
-    background-color: var(--color-background-initial);
+    background-color: var(--color-box);
 }
 
 h1, li, p, h2, h3{
@@ -61,7 +61,8 @@ nav ul{
     text-decoration: none;
     color: #000000;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
+    cursor: pointer;
 }
 .logo-yoga img{
     width: 70px;
@@ -168,7 +169,7 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .card-style{
     background-color: #ffffff;
@@ -283,6 +284,6 @@ li::marker{
 }
 .text-about h2{
     margin-bottom: 5%;
-    font-size: 27pt;
+    font-size: 31pt;
     padding: 5px;
 }
