@@ -26,7 +26,7 @@ header{
     background-color: var(--color-box);
 }
 
-h1, li, p, h2, h3{
+h1, li, p, h2, h3, .btn-book{
     font-family: "DM Sans", arial;
 }
 
@@ -188,7 +188,7 @@ nav ul{
     height: 100%;
 }
 .card-style:hover::before{
-    backdrop-filter: blur(3px) brightness(0.7);
+    backdrop-filter: blur(3px) brightness(0.7) sepia(15%);
 }
 #card-hatha{
     background-image: url(/assets/pexels-poses-yoga01.jpg);
