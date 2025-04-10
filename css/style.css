@@ -298,23 +298,42 @@ li::marker{
     padding: 5px;
 }
 
+.review-header{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 30px;
+    gap: 2px;
+}
+
 .reviewSect{
     width: 100vw;
     height: 80vh;
     position: relative;
     overflow: hidden;
-    padding: 20px 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: #f7f7f7;
 }
 .textReview{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 10px;
     text-align: left;
 }
 .swiper{
-    width: 80%;
-    padding: 20px;
+    width: 87%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.swiper-slide{
+    padding: 26px;
+}
+.person{
+    display: flex;
+    justify-items: end;
+    justify-content: flex-end;
+    margin-top: 34px;
 }
