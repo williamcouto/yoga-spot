@@ -304,11 +304,13 @@ li::marker{
     align-items: baseline;
     margin-bottom: 30px;
     gap: 2px;
+    position: relative;
+    right: 35%;
 }
 
 .reviewSect{
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -318,22 +320,27 @@ li::marker{
     background-color: #f7f7f7;
 }
 .textReview{
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 10px;
     text-align: left;
 }
 .swiper{
-    width: 87%;
-    height: 50%;
-    background-color: #fff;
-    border-radius: 10px;
+    width: 90%;
+    height: 270px;
 }
 .swiper-slide{
-    padding: 26px;
+    background-color: rgb(255, 255, 255);
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 8px;
 }
 .person{
     display: flex;
-    justify-items: end;
+    justify-items: center;
+    flex-direction: column;
     justify-content: flex-end;
     margin-top: 34px;
 }
