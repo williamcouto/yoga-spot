@@ -334,6 +334,8 @@ li::marker{
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    color: #3d3d3dd8;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
     border-radius: 8px;
 }
 .swiper-slide img{
@@ -346,4 +348,7 @@ li::marker{
     flex-direction: column;
     margin-top: 16px;
     align-items: flex-end;
+}
+.person > p{
+    color: #3d3d3dd8;
 }
