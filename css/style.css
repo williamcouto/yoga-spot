@@ -294,20 +294,24 @@ li::marker{
 }
 .text-about h2{
     margin-bottom: 5%;
-    font-size: 31pt;
+    font-size: 32pt;
     padding: 5px;
 }
 
 .review-header{
     display: flex;
     flex-direction: column;
+    margin-bottom: 34px;
+    margin: 0px 0px 36px 36px;
     align-items: baseline;
-    margin-bottom: 30px;
-    gap: 2px;
-    position: relative;
-    right: 35%;
+    align-self: flex-start;
 }
-
+.review-header > p{
+    color: var(--color-icons);
+}
+.review-header h2{
+    font-size: 28pt;
+}
 .reviewSect{
     width: 100vw;
     height: 85vh;
@@ -339,8 +343,8 @@ li::marker{
     border-radius: 8px;
 }
 .swiper-slide img{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     margin-bottom: 12px;
 }
 .person{
@@ -349,6 +353,9 @@ li::marker{
     margin-top: 16px;
     align-items: flex-end;
 }
-.person > p{
-    color: #3d3d3dd8;
+.person p{
+    color: #2c2c2c;
+}
+.person h3{
+    color: #000;
 }
