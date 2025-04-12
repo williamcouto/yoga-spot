@@ -321,11 +321,10 @@ li::marker{
 }
 .textReview{
     font-size: 17px;
-    margin-bottom: 10px;
     text-align: left;
 }
 .swiper{
-    width: 90%;
+    width: 92%;
     height: 270px;
 }
 .swiper-slide{
@@ -337,10 +336,14 @@ li::marker{
     gap: 20px;
     border-radius: 8px;
 }
+.swiper-slide img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 12px;
+}
 .person{
     display: flex;
-    justify-items: center;
     flex-direction: column;
-    justify-content: flex-end;
-    margin-top: 34px;
+    margin-top: 16px;
+    align-items: flex-end;
 }
