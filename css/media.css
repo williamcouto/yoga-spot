@@ -1,71 +1,80 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     :root {
         --color-background-initial: #F8F5E9;
         --color-section-stats: #9DC08B;
         --color-icons: #DF6D14;
         --color-box: #F0E8DF;
     }
-    .sect-yoga{
+
+    .sect-yoga {
         width: 100vw;
         height: 100svh;
     }
-    section{
+
+    section {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    header{
+    header {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content:center;
+        justify-content: space-between;
         padding: 20px;
         height: 100px;
         width: 100vw;
     }
-    nav ul{
+
+    nav ul {
         display: none;
     }
-    #sect-initial-yoga{
+
+    #sect-initial-yoga {
         display: flex;
         justify-items: center;
         align-items: center;
     }
-    .img-sect-start article{
+
+    .img-sect-start article {
         padding: 30px;
         background-color: var(--color-box);
         width: 88svw;
         height: 70svh;
-        border-radius: 3px;     
+        border-radius: 3px;
     }
-    article p{
+
+    article p {
         margin-top: 14%;
     }
-    .img-sect-start img{
+
+    .img-sect-start img {
         display: none;
     }
-    .btn-book{
+
+    .btn-book {
         width: 170px;
         height: 50px;
         text-align: left;
         padding-left: 20px;
     }
-    
-    #sect-infos-yoga img{
+
+    #sect-infos-yoga img {
         display: none;
     }
 
-    .text-infos > p{
+    .text-infos>p {
         display: none;
     }
-   
-    .stats-yoga-container{
+
+    .stats-yoga-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 80svw;
     }
-    .stats-card{
+
+    .stats-card {
         background-color: #fff;
         width: 200px;
         height: 145px;
@@ -74,67 +83,18 @@
         margin-bottom: 20px;
         border: 1px solid #0000004f;
     }
-    .stats-card p{
+
+    .stats-card p {
         color: #3d3d3d;
         font-size: 17px;
     }
-    .num-stats{
+
+    .num-stats {
         font-size: 35pt;
     }
 
-    #classes-sect{
-       background-color: var(--color-box);
+    /*Isolando seções temporiamente*/
+    #classes-sect, #sect-about, .reviewSect {
+        display: none;
     }
-    .classes-container{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content:center;
-        gap: 35px;
-    }
-    .card-style img{
-        width: 100%;
-        max-height: 320px;
-    }
-    .card-style{
-        width: 89vw;
-        height: 81svh;
-        background-color: #fff;
-        border: 1px solid #00000036;
-    }
-    .card-style h3{
-        padding: 6px;
-        margin-top: 20px;
-        font-size: 1.6rem;
-        padding-left: 16px;
-        border-left: 7px solid var(--color-icons);
-        border-width: 10px;
-    }
-
-    .card-style ul{
-        padding: 22px;
-        line-height: 1.6em;
-    }
-    .card-style li{
-        font-size: 1.2rem;
-        color: #3d3d3d;
-    }
-    li::marker{
-        color: var(--color-icons);
-    }
-    #classes-header{
-        margin-bottom: 13px;
-    }
-    #classes-header h1{
-        font-size: 31pt;
-        margin-bottom: 8px;
-        margin-top: 20px;
-    }
-    #classes-header p {
-        color: #3a3a3a;
-    }
-    #classes-sect{
-       height: 200px;
-    }
-
 }
