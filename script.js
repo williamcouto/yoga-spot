@@ -12,3 +12,11 @@ var swiper = new Swiper(".swiper", {
         prevEl: ".swiper-button-prev",
     },
 })
+
+// Abrir e fechar o menu em dispositivos movéis
+let menu = document.querySelector('.menu-bars')
+let menuBg = document.querySelector('.menu-bg-header')
+menu.addEventListener('click', () => {
+    menu.classList.toggle('changeMenu')
+    menuBg.classList.toggle('change-bg-menu')
+})

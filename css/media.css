@@ -22,7 +22,6 @@
         align-items: center;
         height: 100px;
         width: 100vw;
-        background-color: var(--color-section-stats);
     }
 
     nav{
@@ -47,15 +46,14 @@
     }
 
     .menu-bg-header{
-        background-color: #fff;
+        background-color: var(--color-section-stats);
         z-index: 1;
         width: 0;
         height: 0;
         margin: 30px 0px 20px 20px;
-    }
-    .menu-bg-header{
+        border-radius: 10px;
         position: absolute;
-        top: 10%;
+        top: 0;
         left: 50%;
     }
 
@@ -79,7 +77,14 @@
         display: block;
         transition: 0.2s ease;
     }
-
+    .changeMenu{
+        display: block;
+    }
+    /*Menu aberto*/
+    .change-bg-menu{
+        width: 200px;
+        height: 200px;
+    }
     
 
     #sect-initial-yoga {
