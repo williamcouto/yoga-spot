@@ -4,17 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --color-background-initial: #F8F5E9;
     --color-section-stats: #9DC08B;
     --color-icons: #DF6D14;
     --color-box: #F0E8DF;
 }
-/*HEADER*/
-.menu-item > li{
-    list-style: none;
-}
+
 header{
     display: flex;
     flex-direction: row;
@@ -49,7 +45,6 @@ nav ul{
     padding: 10px;
     list-style: none;
     gap: 30px;
-    font-family: 'Lucida Sans', sans-serif;
 }
 
 /*SECTIONS*/
@@ -57,18 +52,11 @@ nav ul{
     width: 100%;
     height: 100vh;
 }
-.nav-items li > a {
+.menu-items li > a {
     text-decoration: none;
     color: #000000;
-    font-weight: bold;
     font-size: 17px;
     cursor: pointer;
-}
-.logo-yoga img{
-    width: 70px;
-    padding: 5px;
-    border-radius: 15%;
-    margin-left: 10%;
 }
 .img-sect-start{
     display: flex;
