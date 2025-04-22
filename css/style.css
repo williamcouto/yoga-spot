@@ -15,11 +15,11 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     height: 90px;
     grid-area: cabeçalho;
-    background-color: var(--color-box);
+    background-color: var(--color-background-initial);
 }
 
 h1, li, p, h2, h3, .btn-book{
@@ -40,14 +40,17 @@ body{
     'box-types';
     overflow-x: hidden;
 }
-
 .nav-items > ul{
     display: flex;
     align-items: center;
-    flex-direction: row;
     list-style-type: none;
     gap: 25px;
 }
+#menu-icon{
+    display: none;
+}
+
+
 
 /*SECTIONS*/
 .sect-yoga{
