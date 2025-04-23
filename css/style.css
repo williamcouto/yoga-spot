@@ -352,3 +352,22 @@ li::marker{
 .person h3{
     color: #000;
 }
+
+
+#sect-benefits{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 72vh;
+    align-items: center;
+    justify-items: center;
+}
+.sect-img-benefit > img{
+    width: 500px;
+    height: 350px;
+    padding: 10px;
+    margin-top: 3%;
+}
+.textBenefits{
+    line-height: 2.5em;
+    font-size: 17px;
+}
