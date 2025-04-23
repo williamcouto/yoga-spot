@@ -1,8 +1,7 @@
 var swiper = new Swiper(".swiper", {
     slidesPerView: 2,
-    spaceBetween: 70,
+    spaceBetween: 37,
     loop: true,
-    effect: 'fade',
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -17,7 +16,6 @@ var swiper = new Swiper(".swiper", {
 let menu = document.querySelector('#menu')
 let navItemsBar = document.querySelector('.nav-items')
 let menuBg = document.querySelector('.menu-bg-header')
-
 
 menu.addEventListener('click', () => {
     menuBg.classList.toggle('change-bg-menu')

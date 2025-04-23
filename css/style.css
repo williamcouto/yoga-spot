@@ -287,7 +287,7 @@ li::marker{
 }
 .text-about h2{
     margin-bottom: 5%;
-    font-size: 32pt;
+    font-size: 33pt;
     padding: 5px;
 }
 
@@ -321,7 +321,7 @@ li::marker{
     text-align: left;
 }
 .swiper{
-    width: 92%;
+    width: 85%;
     height: 270px;
 }
 .swiper-slide{
@@ -338,7 +338,7 @@ li::marker{
 .swiper-slide img{
     width: 45px;
     height: 45px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .person{
     display: flex;
