@@ -117,15 +117,15 @@ body{
     gap: 15px;
     grid-area: sect-infos-yoga;
 }
-.text-infos{
-    font-family: 'Lucida Sans',sans-serif;
+#text-infos{
     font-size: 13pt;
     padding: 11px;
-    margin-top: 7%;
+    margin-top: 4%;
     grid-column: span 1;
 }
-.text-infos > p{
+#text-infos > p{
     color: #000;
+    text-align: left;
 }
 #sect-infos-yoga p{
     margin-bottom: 20px;
@@ -134,30 +134,31 @@ body{
     width: 59vw;
     height: 100%;
 }
-.stats-yoga-container{
+.stats-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 25px;
+    gap: 20px;
 }
 .stats-card{
     background-color: var(--color-box);
-    width: 220px;
-    height: 150px;
+    width: 230px;
+    height: 160px;
     padding: 18px;
-    border-radius: 11px;
+    border-radius: 8px;
     position: relative;
-    right: 30%;
+    right: 32%;
     top: 20%;
     margin-bottom: 20px;
     border: 1px solid #0000004f;
 }
 .stats-card p{
     margin-top: 6px;
-    color: rgb(61, 61, 61);
+    color: rgba(61, 61, 61, 0.89);
     font-size: 15px;
 }
 .num-stats{
     font-size: 33pt;
+    font-family: 'DM Sans', Arial, Helvetica, sans-serif;
 }
 .classes-container{
     display: flex;
