@@ -9,6 +9,7 @@
     --color-section-stats: #9DC08B;
     --color-icons: #DF6D14;
     --color-box: #F0E8DF;
+    --color-secondary: #306838;
 }
 
 header{
@@ -352,20 +353,26 @@ li::marker{
 .person h3{
     color: #000;
 }
-
-
 #sect-benefits{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 72vh;
     align-items: center;
     justify-items: center;
+    margin-top: 2%;
 }
 .sect-img-benefit > img{
-    width: 500px;
+    width: 550px;
     height: 350px;
     padding: 10px;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+.sect-img-benefit h2{
+    text-align: left;
     margin-top: 3%;
+    padding-left: 10px;
+    font-size: 20pt;
 }
 .textBenefits{
     line-height: 2.5em;
