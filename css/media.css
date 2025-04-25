@@ -100,37 +100,45 @@
     #sect-infos-yoga img {
         display: none;
     }
-    .text-infos > p {
+
+    #text-infos{
         width: 80%;
+        margin: 0;
     }
-    .stats-yoga-container{
+  
+    #sect-infos-yoga{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center; 
-        width: 100%;
+        align-items: center;
+        justify-items: center;
+    } 
+    .stats-container{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 200px;
+        align-items: center;
     }
-    
+   
     .stats-card {
         background-color: #ffffff;
-        width: 250px;
-        height: 160px;
-        border-radius: 11px;
+        width: 170px;
+        height: 170px;
+        border-radius: 10px;
         border: 1px solid #0000004f;
     }
 
     .stats-card p {
         color: #3d3d3d;
-        font-size: 17px;
         text-align: left;
     }
 
     .num-stats {
-        font-size: 35pt;
+        font-size: 32pt;
     }
 
     /*Isolando seções temporiamente*/
-    #classes-sect, #sect-about, .reviewSect, .sect-benefit {
+    #classes-sect, #sect-about, .reviewSect, #sect-benefits {
         display: none;
     }
 }
