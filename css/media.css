@@ -137,8 +137,45 @@
         font-size: 32pt;
     }
 
+    #classes-sect{
+        margin-top: 10px;
+    }
+    .classes-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .img-pose{
+        display: block;
+    }
+    .card-style h3,
+    .card-style li,
+    .card-style ul{
+        visibility: visible;
+        z-index: 1;
+    }
+    #card-ashtanga, #card-vinyasa, #card-kundalini, #card-hatha{
+        background-image: none;
+        background-position: none;
+    }
+    .card-style{
+        width: 340px;
+        height: auto;
+        padding: 18px;
+    }
+    .card-style h3{
+        font-size: 30pt;
+    }
+    .card-style img{
+        width: 100%;
+        height: 300px;
+    }
+    .card-style:hover::before{
+        backdrop-filter: none;
+    }
+
     /*Isolando seções temporiamente*/
-    #classes-sect,
     #sect-about,
     .reviewSect,
     #sect-benefits {

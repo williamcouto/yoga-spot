@@ -210,7 +210,9 @@ body{
 #card-ashtanga, #card-vinyasa, #card-kundalini, #card-hatha{
     position: relative;
 }
-
+.img-pose{
+    display: none;
+}
 .card-style h3,
 .card-style li,
 .card-style ul{
