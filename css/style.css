@@ -138,8 +138,9 @@ body{
 .stats-card{
     background-color: var(--color-box);
     width: 260px;
-    height: 150px;
-    padding: 18px;
+    height: 170px;
+    padding: 14px;
+    text-align: center;
     border-radius: 8px;
     margin-bottom: 20px;
     border: 1px solid #0000004f;
