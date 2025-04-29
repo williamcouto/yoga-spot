@@ -155,6 +155,13 @@ body{
     text-align: center;
     font-family: 'DM Sans', Arial, Helvetica, sans-serif;
 }
+.stats-card:hover{
+    color: var(--color-icons);
+    scale: 102%;
+}
+.stats-card p:hover{
+    font-weight: bold;
+}
 .classes-container{
     display: flex;
     align-items: center;

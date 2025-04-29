@@ -136,13 +136,6 @@
     .num-stats {
         font-size: 32pt;
     }
-    .stats-card:hover{
-        color: var(--color-icons);
-        scale: 102%;
-    }
-    .stats-card p:hover{
-        font-weight: bold;
-    }
 
     /*Isolando seções temporiamente*/
     #classes-sect,
