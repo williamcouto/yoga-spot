@@ -1,11 +1,4 @@
 @media screen and (max-width: 768px) {
-    :root {
-        --color-background-initial: #F8F5E9;
-        --color-section-stats: #9DC08B;
-        --color-icons: #DF6D14;
-        --color-box: #F0E8DF;
-    }
-
     .sect-yoga {
         width: 100vw;
         height: 100vh;
@@ -37,7 +30,7 @@
     }
     .menu-bg-header,
     #menu {
-        position: absolute;
+        position: relative;
         top: 5%;
         right: 4%;
     }
@@ -74,7 +67,7 @@
     }
     .img-sect-start article {
         padding: 30px;
-        width: 88svw;
+        width: 88vw;
     }
     article p {
         margin-top: 18%;
@@ -136,9 +129,8 @@
     .num-stats {
         font-size: 32pt;
     }
-
-    #classes-sect{
-        margin-top: 10px;
+    .classes-sect{
+        position: relative;
     }
     .classes-container{
         display: flex;
@@ -153,15 +145,15 @@
     .card-style li,
     .card-style ul{
         visibility: visible;
-        z-index: 1;
     }
     #card-ashtanga, #card-vinyasa, #card-kundalini, #card-hatha{
         background-image: none;
         background-position: none;
+        background-size: none;
     }
     .card-style{
         width: 340px;
-        height: auto;
+        height: 40%;
         padding: 18px;
     }
     .card-style h3{
@@ -174,11 +166,30 @@
     .card-style:hover::before{
         backdrop-filter: none;
     }
+    .card-style::before{
+        content: none;
+    }
+
+    #sect-about{
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 10px;
+        z-index: 1;
+    }
+    .banner-container > img{
+        display: none;
+    }
+    .text-about{
+        width: 93vw;
+    }
+    .text-about p {
+        font-size: 18px;
+    }
+
 
     /*Isolando seções temporiamente*/
-    #sect-about,
-    .reviewSect,
-    #sect-benefits {
+    #sect-benefits, .reviewSect {
         display: none;
     }
 }
