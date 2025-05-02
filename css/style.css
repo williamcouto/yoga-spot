@@ -386,35 +386,46 @@ li::marker{
 }
 
 #sect-prices{
+    display: grid;
+    grid-template-columns: 1fr;
     background-color: var(--color-background-initial);
 }
+
 #prices-container{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 10px;
+    align-items: flex-start;
 }
 .card-prices{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 380px;
-    height: 500px;
+    width: 370px;
+    height: auto;
     border-radius: 10px;
+    padding-bottom: 20px;
     background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 .title{
     width: 100%;
-    padding: 10px 0px;
+    padding: 13px 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    text-align: center;
 }
 #basic .title{
-    background-color: var(--color-icons);
+    background-color: #2C6E49;
+    color: #f7f7f7;
+}
+#plan-mantra .title{
+    background-color: #230903;
+    color: #fff;
 }
 .description{
-    padding: 20px;
+    padding: 20px 30px;
+    line-height: 2em;
 }
 .amount-plan{
     font-size: 2.8em;
@@ -422,8 +433,9 @@ li::marker{
 .cost{
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
     justify-content: center;
+    margin-top: 13px;
+    width: 100%;
 }
 .detail{
     color: #494848;
