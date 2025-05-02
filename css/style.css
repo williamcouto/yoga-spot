@@ -7,9 +7,10 @@
 :root {
     --color-background-initial: #F8F5E9;
     --color-section-stats: #9DC08B;
-    --color-icons: #DF6D14;
+    --color-icons: #D19C56;
     --color-box: #F0E8DF;
     --color-secondary: #306838;
+    --color-elements: #874C62; 
 }
 
 header{
@@ -90,7 +91,7 @@ body{
 .btn-book{
     font-size: 0.9rem;
     font-weight: bold;
-    background-color: #7b1edf;
+    background-color: var(--color-elements);
     color: #ffffff;
     border: none;
     border-radius: 7px;
@@ -382,4 +383,57 @@ li::marker{
 .textBenefits{
     line-height: 2.5em;
     font-size: 17px;
+}
+
+#sect-prices{
+    background-color: var(--color-background-initial);
+}
+#prices-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.card-prices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.title{
+    width: 100%;
+    padding: 10px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.5em;
+}
+#basic .title{
+    background-color: var(--color-icons);
+}
+.description{
+    padding: 20px;
+}
+.amount-plan{
+    font-size: 2.8em;
+}
+.cost{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+}
+.detail{
+    color: #494848;
+    margin: auto 20px auto 5px;
+}
+.btn-plans{
+    width: 300px;
+    height: 37px;
+    background-color: var(--color-elements);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
 }
