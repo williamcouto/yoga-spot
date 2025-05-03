@@ -427,7 +427,11 @@ li::marker{
     color: #ffff;
 }
 #plan-mantra .title{
-    background-color: #230903;
+    background-color: #3F514B;
+    color: #fff;
+}
+#plan-lotus .title{
+    background-color: #51344D;
     color: #fff;
 }
 .description{
