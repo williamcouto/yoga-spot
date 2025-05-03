@@ -388,22 +388,29 @@ li::marker{
 #sect-prices{
     display: grid;
     grid-template-columns: 1fr;
+    min-height: 100vh;
     background-color: var(--color-background-initial);
 }
 
+#sect-prices h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30pt
+}
 #prices-container{
     display: flex;
-    justify-content: space-around;
     align-items: flex-start;
+    justify-content: space-around;
 }
 .card-prices{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     width: 370px;
     height: auto;
     border-radius: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
@@ -417,7 +424,7 @@ li::marker{
 }
 #basic .title{
     background-color: #2C6E49;
-    color: #f7f7f7;
+    color: #ffff;
 }
 #plan-mantra .title{
     background-color: #230903;
@@ -426,6 +433,10 @@ li::marker{
 .description{
     padding: 20px 30px;
     line-height: 2em;
+}
+.description ul{
+    color: #646464;
+    font-size: 15px;
 }
 .amount-plan{
     font-size: 2.8em;
@@ -436,10 +447,12 @@ li::marker{
     justify-content: center;
     margin-top: 13px;
     width: 100%;
+    margin-top: 7%;
 }
 .detail{
     color: #494848;
-    margin: auto 20px auto 5px;
+    margin: auto 20px auto 8px;
+    font-size: 13px;
 }
 .btn-plans{
     width: 300px;
@@ -448,4 +461,5 @@ li::marker{
     color: #fff;
     border-radius: 5px;
     border: none;
+    margin-top: 10%;
 }
