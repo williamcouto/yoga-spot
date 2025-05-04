@@ -443,7 +443,7 @@ li::marker{
     font-size: 15px;
 }
 .amount-plan{
-    font-size: 2.8em;
+    font-size: 3em;
 }
 .cost{
     display: flex;
@@ -457,6 +457,20 @@ li::marker{
     color: #494848;
     margin: auto 20px auto 8px;
     font-size: 13px;
+}
+.description ul{
+    list-style: none;
+}
+.description li::before {
+    content: "";
+    background-image:url(/assets/check.png);
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    margin-right: 7px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.6;
 }
 .btn-plans{
     width: 300px;
