@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
     .sect-yoga {
         width: 100vw;
-        height: 100vh;
+        
     }
     section {
         display: grid;
@@ -15,6 +15,15 @@
         justify-content: space-between;
         height: 120px;
         width: 100vw;
+    }
+    body{
+    display: grid;
+    grid-template-areas: 
+        'cabeçalho' 
+        'sect-initial-yoga'
+        'sect-infos-yoga'
+        'classes-sect'
+        'sect-about';
     }
     .nav-items {
         display: none;
@@ -97,7 +106,7 @@
 
     #sect-infos-yoga {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-areas: 
             'card01 card03'
             'img img'
@@ -107,11 +116,11 @@
         align-items: center;
         justify-items: center;
         gap: 10px;
+        min-height: 100vh;
     }
 
     #sect-infos-yoga img{
         width: 100%;
-        background-attachment: fixed;
         grid-area: img;
     }
 
@@ -130,16 +139,20 @@
         font-size: 32pt;
     }
     .classes-sect{
-        position: relative;
+        grid-area: classes-sect;
     }
     .classes-container{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
         align-items: center;
+        justify-items: center;
         gap: 30px;
+        margin-top: 30px;
     }
     .img-pose{
         display: block;
+        width: 100%;
     }
     .card-style h3,
     .card-style li,
@@ -150,10 +163,11 @@
         background-image: none;
         background-position: none;
         background-size: none;
+        
     }
     .card-style{
-        width: 340px;
-        height: 40%;
+        width: 330px;
+        height: auto;
         padding: 18px;
     }
     .card-style h3{
@@ -169,14 +183,17 @@
     .card-style::before{
         content: none;
     }
-
     #sect-about{
-        display: none;
-        grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
         justify-items: center;
         gap: 10px;
-        z-index: 1;
+        margin-top: 100%;
+        grid-area: sect-about;
+        
     }
+/* 
+    
     .banner-container > img{
         display: none;
     }
@@ -185,11 +202,9 @@
     }
     .text-about p {
         font-size: 18px;
-    }
+    } */
 
-
-    /*Isolando seções temporiamente*/
-    #sect-benefits, .reviewSect {
+    .reviewSect, #sect-benefits, #sect-prices{
         display: none;
     }
 }

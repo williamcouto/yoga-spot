@@ -37,9 +37,7 @@ body{
     grid-template-areas: 
     'cabeçalho' 
     'sect-initial-yoga'
-    'sect-infos-yoga'
-    'features-yoga'
-    'box-types';
+    'sect-infos-yoga';
     overflow-x: hidden;
 }
 .nav-items > ul{
@@ -263,12 +261,6 @@ li::marker{
     align-items: center;
     justify-items: center;
     background-color: var(--color-background-initial);
-    position: relative;
-}
-#sect-about > svg{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 .banner-container > img{
     width: 440px;
@@ -394,7 +386,8 @@ li::marker{
 
 #sect-prices h2{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 32px;
     font-size: 30pt
 }
 #prices-container{
