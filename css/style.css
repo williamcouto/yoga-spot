@@ -10,7 +10,8 @@
     --color-icons: #D19C56;
     --color-box: #F0E8DF;
     --color-secondary: #306838;
-    --color-elements: #874C62; 
+    --color-elements: #874C62;
+    --color-text-secondary: #6b6b6b; 
 }
 
 header{
@@ -146,7 +147,7 @@ body{
 }
 .stats-card p{
     margin-top: 6px;
-    color: #3d3d3dee;
+    color: var(--color-text-secondary);
     font-size: 15px;
 }
 .num-stats{
@@ -250,7 +251,7 @@ li::marker{
     margin-top: 20px;
 }
 #classes-sect p {
-    color: #575757;
+    color: var(--color-text-secondary);
 }
 #classes-sect h1, p {
     text-align: center;
@@ -266,7 +267,6 @@ li::marker{
     border: 2px solid var(--color-section-stats);
     padding: 4px;
 }
-
 .text-about{
     display: flex;
     flex-direction: column;
@@ -279,7 +279,7 @@ li::marker{
     text-align: left;
     margin-bottom: 10px;
     margin-left: 30px;
-    color: #494848;
+    color: var(--color-text-secondary);
 }
 .text-about h2{
     margin-bottom: 5%;
@@ -327,7 +327,7 @@ li::marker{
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    color: #3d3d3dd8;
+    color: var(--color-text-secondary);
     font-family: "DM Sans", Arial, Helvetica, sans-serif;
     border-radius: 8px;
 }
@@ -343,7 +343,7 @@ li::marker{
     align-items: flex-end;
 }
 .person p{
-    color: #2c2c2c;
+    color: var(--color-text-secondary);
 }
 .person h3{
     color: #000;
@@ -433,11 +433,11 @@ li::marker{
     line-height: 2em;
 }
 .description ul{
-    color: #646464;
+    color: var(--color-text-secondary);
     font-size: 15px;
 }
 .amount-plan{
-    font-size: 3em;
+    font-size: 38pt;
 }
 .cost{
     display: flex;
@@ -448,9 +448,9 @@ li::marker{
     margin-top: 7%;
 }
 .detail{
-    color: #494848;
+    color: var(--color-text-secondary);
     margin: auto 20px auto 8px;
-    font-size: 13px;
+    font-size: 12px;
 }
 .description ul{
     list-style: none;
