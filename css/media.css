@@ -190,8 +190,15 @@
         gap: 10px;
         margin-top: 100%;
         grid-area: sect-about;
-        
+        height: 100vh;
+        z-index: 2;
     }
+    .text-about{
+        width: 93vw;
+    }
+    .text-about p {
+        font-size: 18px;
+    } 
 /* 
     
     .banner-container > img{

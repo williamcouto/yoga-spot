@@ -260,16 +260,13 @@ li::marker{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
-    background-color: var(--color-background-initial);
 }
 .banner-container > img{
     width: 440px;
     border: 2px solid var(--color-section-stats);
     padding: 4px;
 }
-.banner-container{
-    z-index: 1;
-}
+
 .text-about{
     display: flex;
     flex-direction: column;
@@ -380,15 +377,13 @@ li::marker{
 #sect-prices{
     display: grid;
     grid-template-columns: 1fr;
-    min-height: 100vh;
-    background-color: var(--color-background-initial);
+    min-height: 20%;
 }
-
 #sect-prices h2{
     text-align: center;
     margin-bottom: 30px;
     margin-top: 32px;
-    font-size: 30pt
+    font-size: 32pt;
 }
 #prices-container{
     display: flex;
@@ -403,6 +398,7 @@ li::marker{
     width: 370px;
     height: auto;
     border-radius: 10px;
+    border: 1px solid #00000013;
     padding-bottom: 15px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
