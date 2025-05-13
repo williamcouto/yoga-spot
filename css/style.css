@@ -466,8 +466,9 @@ li::marker{
 .btn-plans{
     width: 300px;
     height: 37px;
-    background-color: var(--color-elements);
+    background-color: #252525;
     color: #fff;
+    cursor: pointer;
     border-radius: 5px;
     border: none;
     margin-top: 10%;
@@ -543,7 +544,7 @@ input{
     font-size: 15px;
 }
 #btn-news{
-    width: 140px;
+    width: 150px;
     height: 38px;
     background-color: var(--color-secondary);
     color: #fff;
@@ -552,6 +553,11 @@ input{
     font-size: 15px;
     position: relative;
     right: 8px;
+    cursor: pointer;
+}
+#btn-news:hover{
+    background-color: var(--color-box);
+    color: #000;
 }
 input, label, #btn-news{
     font-family: "DM Sans", Arial, Helvetica, sans-serif;
