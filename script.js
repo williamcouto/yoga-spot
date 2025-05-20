@@ -10,6 +10,12 @@ var swiper = new Swiper(".swiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+        360:{
+            slidesPerView: 1,
+            spaceBetween: 2
+        }
+    }
 })
 
 // Abrir e fechar o menu em dispositivos movéis

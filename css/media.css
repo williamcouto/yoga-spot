@@ -1,22 +1,24 @@
 @media screen and (max-width: 768px) {
     :root {
-    --color-background-initial: #F8F5E9;
-    --color-section-stats: #9DC08B;
-    --color-icons: #D19C56;
-    --color-box: #F0E8DF;
-    --color-secondary: #306838;
-    --color-elements: #874C62;
-    --color-text-secondary: #6b6b6b; 
+        --color-background-initial: #F8F5E9;
+        --color-section-stats: #9DC08B;
+        --color-icons: #D19C56;
+        --color-box: #F0E8DF;
+        --color-secondary: #306838;
+        --color-elements: #874C62;
+        --color-text-secondary: #6b6b6b;
     }
 
     .sect-yoga {
         width: 100vw;
-        
+
     }
+
     section {
         display: grid;
         grid-template-columns: 1fr;
     }
+
     header {
         display: flex;
         align-items: center;
@@ -25,15 +27,18 @@
         height: 120px;
         width: 100vw;
     }
-    body{
-    display: grid;
-    grid-template-areas: 
-        'header-yoga' 
-        'sect-initial-yoga'
-        'sect-infos-yoga'
-        'classes-sect'
-        'sect-about';
+
+    body {
+        display: grid;
+        grid-template-areas:
+            'header-yoga'
+            'sect-initial-yoga'
+            'sect-infos-yoga'
+            'classes-sect'
+            'sect-about'
+            'sect-benefits';
     }
+
     .nav-items {
         display: none;
         position: absolute;
@@ -47,17 +52,20 @@
         list-style: none;
         padding: 10px 0px;
     }
+
     .nav-items ul {
         display: block;
         list-style: none;
         padding: 0px 10px;
     }
+
     .menu-bg-header,
     #menu {
         position: relative;
         top: 5%;
         right: 0;
     }
+
     .menu-bg-header {
         position: absolute;
         z-index: 1;
@@ -69,14 +77,17 @@
         border-radius: 2px;
         transition: 0.4s ease;
     }
-    #menu-btn{
+
+    #menu-btn {
         background-color: transparent;
         border: none;
         display: block;
     }
+
     #menu {
         z-index: 2;
     }
+
     #menu-icon {
         font-size: 27pt;
         text-align: center;
@@ -85,28 +96,35 @@
         color: #fff;
         display: block;
     }
+
     .nav-open {
         display: block;
     }
+
     .menu-bg-active {
         width: 150px;
         height: 200px;
     }
+
     #sect-initial-yoga {
         display: flex;
         justify-items: center;
         align-items: center;
     }
+
     .img-sect-start article {
         padding: 30px;
         width: 88vw;
     }
+
     article p {
         margin-top: 18%;
     }
+
     .img-sect-start img {
         display: none;
     }
+
     .btn-book {
         width: 170px;
         height: 50px;
@@ -114,23 +132,26 @@
         padding-left: 20px;
     }
 
-    .card01{
+    .card01 {
         grid-area: card01;
     }
-    .card02{
+
+    .card02 {
         grid-area: card02;
     }
-    .card03{
+
+    .card03 {
         grid-area: card03;
     }
-    .card04{
+
+    .card04 {
         grid-area: card04;
     }
 
     #sect-infos-yoga {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        grid-template-areas:
             'card01 card03'
             'img img'
             'card02 card04';
@@ -142,7 +163,7 @@
         min-height: 100vh;
     }
 
-    #sect-infos-yoga img{
+    #sect-infos-yoga img {
         width: 100%;
         grid-area: img;
     }
@@ -154,17 +175,21 @@
         border-radius: 10px;
         border: 1px solid #00000033;
     }
+
     .stats-card p {
         color: #3d3d3d;
         text-align: left;
     }
+
     .num-stats {
         font-size: 32pt;
     }
-    .classes-sect{
+
+    .classes-sect {
         grid-area: classes-sect;
     }
-    .classes-container{
+
+    .classes-container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -174,61 +199,100 @@
         margin-top: 7px;
         overflow: scroll;
     }
-    #card-ashtanga, #card-vinyasa, #card-kundalini, #card-hatha {
+
+    #card-ashtanga,
+    #card-vinyasa,
+    #card-kundalini,
+    #card-hatha {
         background-image: none;
         background-size: none;
     }
-    .img-pose{
+
+    .img-pose {
         display: block;
         width: 100%;
     }
+
     .card-style h3,
     .card-style li,
-    .card-style ul{
+    .card-style ul {
         visibility: visible;
     }
-    .card-style{
+
+    .card-style {
         width: 320px;
         height: auto;
         padding: 18px;
     }
-    .card-style h3{
+
+    .card-style h3 {
         font-size: 30pt;
     }
-    .card-style img{
+
+    .card-style img {
         width: 100%;
         height: 300px;
     }
-    .card-style:hover::before{
+
+    .card-style:hover::before {
         backdrop-filter: none;
         color: #000;
     }
-    
-    #sect-about{
+
+    #sect-about {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
         gap: 10px;
-        margin-top: 20%;
         grid-area: sect-about;
-        z-index: 2;
+        border: 1px solid #00000033;
+        border-radius: 10px;
+        height: auto;
     }
-    .text-about h2{
+    .text-about h2 {
         text-align: center;
     }
-    .text-about{
+    .text-about {
         width: 95vw;
     }
     .text-about p {
         line-height: 1.7em;
         margin-top: 8px;
-    } 
-    .banner-container > img{
+    }
+    .banner-container>img {
         display: none;
     }
 
-    .reviewSect, #sect-benefits, #sect-prices
-    , #news-yoga{
+    .reviewSect {
+        display: flex;
+        width: 100vw;
+        height: 90vh;
+        overflow: hidden;
+    }
+    .swiper {
+        width: 90%;
+        height: 50%;
+    }
+    .swiper-slide {
+        background-color: rgb(255, 255, 255);
+        padding: 15px;
+        gap: 10px;
+        border-radius: 6px;
+    }
+
+    #sect-benefits{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sect-img-benefit>img {
+        width: 100%;
+
+        margin-top: 4px;
+        border-radius: 12px;
+    }
+
+    #sect-prices,
+    #news-yoga{
         display: none;
     }
 }
