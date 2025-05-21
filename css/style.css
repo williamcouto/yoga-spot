@@ -373,7 +373,7 @@ p {
 
 .swiper {
     width: 86%;
-    height: 300px;
+    height: 350px;
 }
 
 .swiper-slide {
@@ -382,10 +382,10 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
     color: var(--color-text-secondary);
     font-family: "DM Sans", Arial, Helvetica, sans-serif;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .swiper-slide img {
@@ -419,7 +419,7 @@ p {
     margin-top: 2%;
 }
 
-.sect-img-benefit>img {
+.sect-img-benefit > img {
     width: 550px;
     height: 350px;
     padding: 10px;

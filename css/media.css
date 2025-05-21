@@ -274,21 +274,31 @@
         height: 50%;
     }
     .swiper-slide {
-        background-color: rgb(255, 255, 255);
-        padding: 15px;
+        background-color: #ffffff;
+        padding: 16px;
         gap: 10px;
-        border-radius: 6px;
+        border-radius: 7px;
+        height: 400px;
     }
-
     #sect-benefits{
         display: grid;
         grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        padding: 10px;
     }
     .sect-img-benefit>img {
         width: 100%;
-
-        margin-top: 4px;
+        height: 300px;
+        margin-top: 20px;
         border-radius: 12px;
+    }
+    .sect-img-benefit h2 {
+        text-align: left;
+    }
+    .textBenefits {
+        line-height: 2em;
+        width: 280px;
     }
 
     #sect-prices,

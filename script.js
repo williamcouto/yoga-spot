@@ -11,9 +11,13 @@ var swiper = new Swiper(".swiper", {
         prevEl: ".swiper-button-prev",
     },
     breakpoints: {
-        360:{
+        640: {
+            slidesPerView: 3,
+            spaceBetween: 13
+        },
+        360: {
             slidesPerView: 1,
-            spaceBetween: 2
+            spaceBetween: 10
         }
     }
 })
