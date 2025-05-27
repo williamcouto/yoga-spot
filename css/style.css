@@ -678,18 +678,6 @@ footer{
     flex-direction: column;
     align-items: baseline;
 }
-.icon-social{
-    width: 45px;
-    margin: 10px;
-    background-color: var(--color-icons);
-    padding: 10px;
-    margin-top: 13px;
-    height: 45px;
-    border-radius: 6px;
-}
-.icon-social:hover{
-    background-color: var(--color-box);
-}
 .hours{
     color: var(--color-icons);
     font-weight: light;
@@ -707,4 +695,21 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-items: center;
+}
+.fa-brands{
+    font-size: 21pt;
+    color: var(--color-icons);
+    padding: 6px;
+    margin-top: 9px;
+}
+.fa-whatsapp{
+    color: #fff;
+    font-size: 15pt;
+}
+.fa-envelope{
+    padding-right: 10px;
+}
+.fa-brands:hover{
+    color: var(--color-box);
 }
