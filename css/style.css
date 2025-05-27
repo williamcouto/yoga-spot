@@ -580,7 +580,6 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     justify-items: center;
 }
-
 .bg-image-news {
     background-image: url(/assets/pexels-cottonbro-4325460.jpg);
     background-position: center;
@@ -591,11 +590,9 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: center;
 }
-
 .bg-image-news img {
     width: 200px;
 }
-
 .form-news {
     display: flex;
     flex-direction: column;
@@ -605,25 +602,21 @@ body::-webkit-scrollbar-thumb {
     padding: 25px;
     border-end-end-radius: 28px;
 }
-
 .form-news h2 {
     font-size: 32pt;
     margin-bottom: 10px;
 }
-
 .text-news {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-
 .text-news p {
     text-align: left;
     width: 80%;
     margin-bottom: 8%;
     color: var(--color-text-secondary);
 }
-
 input {
     width: 350px;
     height: 38px;
@@ -633,7 +626,6 @@ input {
     margin-top: 5px;
     font-size: 15px;
 }
-
 #btn-news {
     width: 150px;
     height: 38px;
@@ -646,14 +638,73 @@ input {
     right: 8px;
     cursor: pointer;
 }
-
 #btn-news:hover {
     background-color: var(--color-box);
     color: #000;
 }
-
 input,
 label,
 #btn-news {
     font-family: "DM Sans", Arial, Helvetica, sans-serif;
+}
+
+footer{
+    height: 62vh;
+    background-color: #0d0e0e;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+    color: #fff;
+}
+.footer-container > div > ul{
+    list-style-type: none;
+}
+.footer-container h3{
+    color: var(--color-icons);
+}
+#footer-title{
+    font-size: 40pt;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.social-box{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.icon-social{
+    width: 45px;
+    margin: 10px;
+    background-color: var(--color-icons);
+    padding: 10px;
+    margin-top: 13px;
+    height: 45px;
+    border-radius: 6px;
+}
+.icon-social:hover{
+    background-color: var(--color-box);
+}
+.hours{
+    color: var(--color-icons);
+    font-weight: light;
+    margin-bottom: 6px;
+}
+#email-icon{
+    width: 20px;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+#contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
