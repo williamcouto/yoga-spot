@@ -683,14 +683,6 @@ footer{
     font-weight: light;
     margin-bottom: 6px;
 }
-#email-icon{
-    width: 20px;
-    background-color: #fff;
-    padding: 2px;
-    border-radius: 3px;
-    margin-right: 8px;
-    margin-top: 8px;
-}
 #contact-box{
     display: flex;
     flex-direction: column;

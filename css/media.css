@@ -305,6 +305,7 @@
     #sect-prices{
         display: grid;
         grid-template-columns: 1fr;
+        height: auto;
     }
     #prices-container {
         display: flex;
@@ -326,10 +327,43 @@
         margin-top: 32px;
         font-size: 32pt;
     }
-
-
-
-    #news-yoga{
+    .form-news{
+        width: 90vw;
+        height: 50vh;
+        border-radius: 2px;
+    }
+    .form-news > div{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: baseline;
+    }
+    input{
+        width: 250px;
+        height: 44px;
+        margin-bottom: 7px;
+    }
+    .bg-image-news{
         display: none;
     }
+
+    footer{
+        height: auto;
+        background-color: #0d0e0e;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        justify-items: center;
+        color: #fff;
+    }
+    #footer-title{
+        font-size: 33pt;
+    }
+    .social-box{
+        align-items: baseline;
+    }
+
 }
