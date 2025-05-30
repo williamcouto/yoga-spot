@@ -353,17 +353,16 @@
     }
     .footer-container{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-items: center;
         color: #fff;
+        padding: 18px;
     }
     #footer-title{
-        font-size: 33pt;
-    }
-    .social-box{
-        align-items: baseline;
+        font-size: 25pt;
+        font-weight: bold;
+        margin: 20px;
     }
 
 }

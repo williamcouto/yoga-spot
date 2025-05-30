@@ -142,7 +142,6 @@ body {
     width: 560px;
     height: auto;
     object-fit: cover;
-    border: #3d3d3d 1px solid;
     padding: 3px;
 }
 
@@ -655,7 +654,7 @@ footer{
 .footer-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr ;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -665,7 +664,7 @@ footer{
 .footer-container > div > ul{
     list-style-type: none;
 }
-.footer-container h3{
+.footer-container h4{
     color: var(--color-icons);
 }
 #footer-title{
@@ -686,12 +685,11 @@ footer{
 #contact-box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    justify-items: center;
+    align-items: baseline;
 }
 .fa-brands{
     font-size: 21pt;
-    color: var(--color-icons);
+    color: var(--color-box);
     padding: 6px;
     margin-top: 9px;
 }
@@ -703,5 +701,5 @@ footer{
     padding-right: 10px;
 }
 .fa-brands:hover{
-    color: var(--color-box);
+    color: var(--color-icons);
 }
