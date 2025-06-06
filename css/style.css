@@ -177,10 +177,6 @@ body {
 .stats-card:hover {
     scale: 101%;
 }
-.stats-card p:hover {
-    font-weight: bold;
-}
-
 .classes-container {
     display: flex;
     align-items: center;
