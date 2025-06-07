@@ -39,12 +39,12 @@ function updateNumStats(){
         let initValue = 0
         let finalValue = numsValue.getAttribute('data-value-stat')
 
-        let duration = Math.floor(2000 / finalValue)
+        let duration = Math.floor(200 / finalValue)
         let countStat = setInterval(function(){
             initValue += 1
             numsValue.textContent = initValue
 
-            if(initValue > finalValue){
+            if(initValue == finalValue){
                 clearInterval(countStat)
             }
         }, duration)
